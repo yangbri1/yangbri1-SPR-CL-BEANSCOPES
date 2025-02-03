@@ -1,0 +1,7 @@
+commit 616b9f2a612c6dfde29e5507c03d859396d52483
+Author: Brian Yang <yangbri1@msu.edu>
+Date:   Mon Feb 3 02:11:38 2025 +0000
+
+    Changed annotation to @Scope("prototype") from default @Scope("singleton") s.t. now whenever a bean is requested, a new obj will be instantiated.
+
+ 2 files changed, 1 insertion(+), 1 deletion(-)
